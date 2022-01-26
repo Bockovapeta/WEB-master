@@ -84,7 +84,7 @@ img {
 
 .hlavicka {
     padding: 2rem;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     background-image: url(images/20210813_1232471.jpg);
     background-size:cover;
@@ -93,9 +93,9 @@ img {
 }
 
 .hlavicka p {
-    text-shadow: 5px 5px 10px #063006;
+    text-shadow: 5px 5px 10px #032403;
     font-weight:100;
-    font-size: larger;
+    font-size: 25px;
 }
 
 .hlavicka h1 {
@@ -255,7 +255,7 @@ img {
         }
 
         body {
-            background-color: #816344f1;
+            background-color: #665139f1;
         }
 
         .autor {
