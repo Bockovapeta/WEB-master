@@ -15,9 +15,10 @@ body p {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;   
+    color: #bbff01f1;
 }
 
 h2 {
@@ -42,7 +43,9 @@ img {
 }
 
 .kontakt a {
-    color: rgb(6, 119, 57);
+    color:rgb(18, 39, 18);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #e1f0e1;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -51,14 +54,15 @@ img {
 
 .uvod a,
 .typy a {
-    color: rgb(6, 119, 57);
+    color: #470d0df1;
+    text-shadow: 1px 1px 1px #b1f514;
     text-decoration: none;
     font-weight: bolder;
 }
 
 .uvod a:hover,
 .typy a:hover {
-    color:rgb(82, 36, 36);
+    color:rgb(29, 185, 29);
 }
 
 .fotogalerie img {
@@ -68,7 +72,7 @@ img {
 
 .linka::after {
     content: "";
-    background: rgb(6, 119, 57);
+    background: #bbff01f1;
     display: block;
     height: 5px;
     width: 90px;
@@ -127,9 +131,11 @@ img {
 }
 
 .menu a {
-    color:rgb(6, 119, 57);
+    color:#bbff01f1;
     text-decoration: none;
+    text-shadow: 1px 1px 1px #032403;
     font-weight: bolder;
+    font-size: larger;
 }
 
 .menu a:hover,
@@ -139,7 +145,7 @@ img {
 }
 
 .menu li {
-    border-bottom: 1px solid rgb(153, 139, 139);
+    border-bottom: 1px solid #470d0df1;
     padding: 1rem 0;
 }
 
@@ -150,8 +156,9 @@ img {
 
 .foto {
     position: relative;
+    line-height: 0;
 }
-
+/*
 .fotka {
     width: 100%;
     height: 100%;
@@ -162,7 +169,7 @@ img {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(61, 45, 23);
 }
-
+*/
 /*patička*/
 
 .paticka {
@@ -194,15 +201,15 @@ img {
 
         .menu li {
             border: none;
-            border-top:1px solid rgb(153, 139, 139);
-            border-bottom:1px solid rgb(153, 139, 139);
+            border-top:1px solid #470d0df1;
+            border-bottom:1px solid #470d0df1;
         }
 
         .menu li:nth-child(2),
         .menu li:nth-child(3),
         .menu li:nth-child(4),
         .menu li:nth-child(5) {
-            border-left: 1px solid rgb(153, 139, 139);;
+            border-left: 1px solid #470d0df1;
         }
 
         .menu a {
@@ -249,7 +256,7 @@ img {
             background-color: white;
 
         }
-
+/*
         .fotka {
             width: 100%;
             height: 100%;
@@ -269,20 +276,20 @@ img {
             font-size: 14px;
         }
 
-       
+     */  
     }
 
 /*verze pro PC*/
 @media (min-width:1001px) {
 
         .telo {
-            width: 960px;
+            max-width: 1300px;
             margin: -3rem auto;
             background: white;
         }
 
         body {
-            background-color: #665139f1;
+            background-color: #bbff01f1;
         }
 
         .autor {
@@ -345,7 +352,8 @@ img {
         .fotka a {
             color: white;
         }
-            
+           
+    /*
         .fotka {
             width: 100%;
             height: 100%;
@@ -364,9 +372,9 @@ img {
             opacity: 0.7;
             font-size: 14px;
         }
-
+*/
         .paticka {
-            width: 960px;
+            max-width: 1300px;
             margin: auto;
             padding-top: 10px;
         }
