@@ -159,9 +159,10 @@ img {
     padding: 1rem 0;
 }
 
-.mini p {
-    font-size: 10px;
-    margin-bottom:10px;
+.mini,
+.mini2 {
+    font-size: 12px;
+    padding-bottom: 5px;
 }
 
 .foto {
@@ -206,10 +207,12 @@ img {
 
 
 
+
 /*verze pro tablet*/
 @media (min-width: 500px) and (max-width: 1000px) {
 
-        .mini {
+        .mini,
+        .mini2 {
             margin-bottom: 0;
         }   
         body {
@@ -278,6 +281,9 @@ img {
             background-color: white;
 
         }
+
+   
+
 /*
         .fotka {
             width: 100%;
@@ -375,7 +381,10 @@ img {
         .fotka a {
             color: white;
         }
-           
+
+     
+
+
     /*
         .fotka {
             width: 100%;
@@ -399,7 +408,17 @@ img {
         .paticka {
             max-width: 1200px;
             margin: auto;
-            padding-top: 10px;
+            margin-top:10px;
+            padding-top: 20px;
         }
-            
+          
+        .mini2 {
+            padding-bottom:30px;
+        }
+   
+        .foto img {
+            border: 1px rgb(105, 99, 64) solid;
+        }
+        
+
     }
