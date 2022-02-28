@@ -124,9 +124,11 @@ img {
 
 
 .autor {
-    color: rgb(255, 255, 255);
-    font-style: italic;
+    color: #bbff01f1;
+    font-weight: bolder;
     padding-top: 10px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px #063006;
 }
 
 /*menu*/
