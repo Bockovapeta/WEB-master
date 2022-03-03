@@ -106,7 +106,7 @@ img {
     padding: 2rem;
     color: rgb(255, 255, 255);
     text-align: center;
-    background-image: url(images/20210813_1232471.jpg);
+    background-image: url(images/IMG-20220217-WA0003.jpg);
     background-size:cover;
     background-position: center;
   
@@ -368,6 +368,11 @@ img {
 
         .obrazek {
             position: relative;
+        }
+
+        .obrazek img {
+            height: 600px;
+            width:100%; 
         }
 
         .obrazek .popisek {
