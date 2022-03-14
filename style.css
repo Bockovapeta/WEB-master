@@ -106,8 +106,9 @@ img {
     padding: 2rem;
     color: rgb(255, 255, 255);
     text-align: center;
-    background-image: url(images/IMG-20220217-WA0003.jpg);
-    background-size:cover;
+    background-image: url(images/vinyl/IMG-20220303-WA0008.jpg);
+    background-size: cover;
+    
     background-position: center;
   
 }
@@ -179,6 +180,76 @@ img {
     font-size:larger;
 }
 
+.box input[type="text"], .box input[type="email"], .box textarea {
+
+    background: rgb(210, 255, 151);
+    display: block;
+    text-align: center;
+    border: 2px solid #214252;
+    padding: 5px 3px;
+    width: 95%;
+    color: rgb(44, 26, 26);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #616655;
+    }
+
+.box {
+    margin-left: 2rem;
+}
+
+.box td {
+    display: inline;
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus, textarea:focus {
+
+    transition: 0.25s;
+    border: 2px solid;
+    background-color: rgb(255, 215, 104);
+
+}
+
+.box input[type="submit"] {
+
+    display: block;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    background-color: rgb(181, 255, 34);
+    border: 2px solid #214252;
+    padding: 10px 20px;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #616655;
+    font-weight: bold;
+}
+
+.box input[type="submit"]:hover {
+    background: rgb(255, 215, 104);
+    border: 2px solid;
+    transition: 0.4 s;
+    
+
+}
+
+
+/* Form result */
+.form-result{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.success {
+    background-color: #09f110;
+}
+
+.error {
+   background-color: #fd0404; 
+}
 
 
 
@@ -284,7 +355,15 @@ img {
 
         }
 
-   
+        .box input[type="text"], .box input[type="email"], .box textarea {
+            display: block;
+            width: 100%;
+        }
+
+        .box td {
+            display: flex;
+        }
+        
 
 /*
         .fotka {
@@ -426,6 +505,32 @@ img {
         .foto img {
             border: 1px rgb(105, 99, 64) solid;
         }
+
+
+
+        .box input[type="text"], .box input[type="email"], .box textarea {
+            display: block;
+            width: 100%;
+        }
+
+        .box td {
+            display: flex;
+        }
+
+        .vlevo {
+            display: block;
+            width: 50%;
+        }
+.kontakt {
+    display: flex;
+}
+
+        .vpravo {
+            display: block;
+            float: right;
+            margin-top: -100px;
+        }
+      
         
 
     }
